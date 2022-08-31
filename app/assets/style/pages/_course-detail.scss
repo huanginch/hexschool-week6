@@ -1,0 +1,55 @@
+.left-square {
+    border-left: 3px solid $success;
+}
+
+.course-list {
+    li::before {
+        content:'';
+        background-color: $success;
+        width: 5px;
+        height: 5px;
+        display: inline-block;
+        margin-right: $spacer;
+    }
+
+}
+
+.course-price {
+    position: fixed;
+    width: 30%;
+    z-index: 0;
+
+    @media (max-width: 767px){
+        position: relative;
+        width: auto;
+    }
+    .square {
+        width: 10px;
+        height: 10px;
+        background-color: #fff;
+    }
+
+    a {
+        transition: all 0.3s ease;
+        &:hover {
+            color: $success;
+        }
+    }
+}
+
+.other-courses {
+    position: relative;
+    z-index: 0;
+}
+
+.other-course {
+
+    .card:hover {
+        border: 1px solid $success;
+    }
+
+    .card-image {
+        width: 100px;
+        height: 100px;
+    }
+}

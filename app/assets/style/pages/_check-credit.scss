@@ -1,0 +1,12 @@
+.timeline-2 {
+    position: relative;
+    &::after {
+        content: '';
+        position: absolute;
+        top: 9px;
+        left: 0;
+        right: 0;
+        height: 2px;
+        background: linear-gradient(90deg, $success 50%, $danger 50%)
+    }
+}
