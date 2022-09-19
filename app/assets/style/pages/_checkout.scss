@@ -58,6 +58,10 @@
                 border-color: #62DB54;
             }
         }
+
+        &.active-success::before {
+            content: '✓'
+        }
     }
 }
 
