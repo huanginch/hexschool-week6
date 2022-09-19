@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -208,7 +209,7 @@ sup {
 
 a {
   color: #fff;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:hover {
@@ -3642,7 +3643,6 @@ textarea.form-control-lg {
   line-height: 1.5;
   color: white;
   text-align: center;
-  text-decoration: none;
   vertical-align: middle;
   cursor: pointer;
   -webkit-user-select: none;
@@ -4288,7 +4288,7 @@ fieldset:disabled .btn {
 .btn-link {
   font-weight: 400;
   color: #fff;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .btn-link:hover {
@@ -4602,7 +4602,6 @@ fieldset:disabled .btn {
   font-weight: 400;
   color: #212529;
   text-align: inherit;
-  text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
   border: 0;
@@ -4820,7 +4819,6 @@ fieldset:disabled .btn {
   display: block;
   padding: 0.5rem 1rem;
   color: #fff;
-  text-decoration: none;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
   -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
@@ -4960,7 +4958,6 @@ fieldset:disabled .btn {
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
-  text-decoration: none;
   white-space: nowrap;
 }
 
@@ -5733,7 +5730,6 @@ fieldset:disabled .btn {
   position: relative;
   display: block;
   color: #fff;
-  text-decoration: none;
   background-color: #fff;
   border: 1px solid #dee2e6;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -6075,7 +6071,6 @@ fieldset:disabled .btn {
   display: block;
   padding: 0.5rem 1rem;
   color: #212529;
-  text-decoration: none;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
@@ -14825,7 +14820,7 @@ fieldset:disabled .btn {
 }
 
 body {
-  font-family: "Azeret Mono", "Noto Sans TC", Arial, sans-serif;
+  font-family: "Noto Sans TC", Arial, sans-serif;
 }
 
 footer {
@@ -14857,6 +14852,10 @@ h3::after, .h3::after {
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
+}
+
+.text-Azeret {
+  font-family: "Azeret Mono";
 }
 
 nav::after {
@@ -15480,6 +15479,10 @@ nav::after {
   color: #FFFFFF;
   background-color: #62DB54;
   border-color: #62DB54;
+}
+
+.timeline-pointer.active-success::before {
+  content: '✓';
 }
 
 .class-info img {
